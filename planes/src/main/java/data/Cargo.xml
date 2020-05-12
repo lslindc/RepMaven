@@ -1,0 +1,25 @@
+<Planes>
+	<Cargo>
+		<Plane>
+			<Name>AN-124</Name>
+			<Model>Ruslan</Model>
+			<Affiliation>Antonov Airlines</Affiliation>
+			<Capacity>150 000kg</Capacity>
+			<Size>Large</Size>
+		</Plane>
+		<Plane>
+			<Name>AN-225</Name>
+			<Model>Mriya</Model>
+			<Affiliation>Antonov Airlines</Affiliation>
+			<Capacity>250 000kg</Capacity>
+			<Size>Large</Size>
+		</Plane>
+		<Plane>
+			<Name>Lockheed</Name>
+			<Model>C-130</Model>
+			<Affiliation>US Airforce</Affiliation>
+			<Capacity>19 000kg</Capacity>
+			<Size>Small</Size>
+		</Plane>
+	</Cargo>
+</Planes>

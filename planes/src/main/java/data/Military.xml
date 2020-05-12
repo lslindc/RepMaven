@@ -1,0 +1,25 @@
+<Planes>
+	<Military>
+		<Plane>
+			<Name>Lockheed</Name>
+			<Model>F35</Model>
+			<Affiliation>US Airforce</Affiliation>
+			<Ceiling>15 000m</Ceiling>
+			<Speed>1960km/h</Speed>
+		</Plane>
+		<Plane>
+			<Name>Sukhoi</Name>
+			<Model>Su-57</Model>
+			<Affiliation>Russian Navy</Affiliation>
+			<Ceiling>20 000m</Ceiling>
+			<Speed>2120 km/h</Speed>
+		</Plane>
+		<Plane>
+			<Name>Lockheed</Name>
+			<Model>C-5</Model>
+			<Affiliation>US Airforce</Affiliation>
+			<Ceiling>12 000m</Ceiling>
+			<Speed>856 km/h</Speed>
+		</Plane>
+	</Military>
+</Planes>

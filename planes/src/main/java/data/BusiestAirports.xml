@@ -1,0 +1,44 @@
+<Airport>
+	<Passenger_traffic>
+		<By_2019>
+			<Num_1>
+				<Airport>Atlanta International Airport</Airport>
+				<Country>USA</Country>
+				<Code>ATL/KATL</Code>
+				<Total_passengers>110,531,300</Total_passengers>
+			</Num_1>
+			<Num_2>
+				<Airport>Beijing International Airport</Airport>
+				<Country>China</Country>
+				<Code>PEK/ZBAA</Code>
+				<Total_passengers>100,011,000</Total_passengers>
+			</Num_2>
+			<Num_3>
+				<Airport>Los Angeles International Airport</Airport>
+				<Country>USA</Country>
+				<Code>LAX/KLAX</Code>
+				<Total_passengers>88,068,013</Total_passengers>
+			</Num_3>
+		</By_2019>
+		<By_2018>
+			<Num_1>
+				<Airport>Atlanta International Airport</Airport>
+				<Country>USA</Country>
+				<Code>ATL/KATL</Code>
+				<Total_passengers>107,394,029</Total_passengers>
+			</Num_1>
+			<Num_2>
+				<Airport>Beijing International Airport</Airport>
+				<Country>China</Country>
+				<Code>PEK/ZBAA</Code>
+				<Total_passengers>100,983,290</Total_passengers>
+			</Num_2>
+			<Num_3>
+				<Airport>Dubai International Airport</Airport>
+				<Country>UAE</Country>
+				<Code>DXB/OMDB</Code>
+				<Total_passengers>89,149,387</Total_passengers>
+			</Num_3>
+		</By_2018>
+	</Passenger_traffic>
+</Airport>

@@ -1,0 +1,38 @@
+<Airlines>
+	<Num_1>
+		<Name>Delta Air Lines</Name>
+		<Country>USA</Country>
+		<Passengers_carried_in_2018>192.46 millions
+		</Passengers_carried_in_2018>
+		<Passengers_carried_in_2019>204.00 millions
+		</Passengers_carried_in_2019>
+		<Employees>89 000</Employees>
+	</Num_1>
+	<Num_2>
+		<Name>American Airlines Group</Name>
+		<Country>USA</Country>
+		<Passengers_carried_in_2018>203.74 millions
+		</Passengers_carried_in_2018>
+		<Passengers_carried_in_2019>215.18 millions
+		</Passengers_carried_in_2019>
+		<Employees>128 900</Employees>
+	</Num_2>
+	<Num_3>
+		<Name>Lufthansa</Name>
+		<Country>Germany</Country>
+		<Passengers_carried_in_2018>142.3 millions
+		</Passengers_carried_in_2018>
+		<Passengers_carried_in_2019>145.2 millions
+		</Passengers_carried_in_2019>
+		<Employees>135 534</Employees>
+	</Num_3>
+	<Num_4>
+		<Name>Ryanair</Name>
+		<Country>Ireland</Country>
+		<Passengers_carried_in_2018>139.2 millions
+		</Passengers_carried_in_2018>
+		<Passengers_carried_in_2019>152.4 millions
+		</Passengers_carried_in_2019>
+		<Employees>17 500</Employees>
+	</Num_4>
+</Airlines>

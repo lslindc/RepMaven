@@ -1,0 +1,29 @@
+<Ukraine>
+	<Mykolaiv>
+		<Name>Kul'bakyne</Name>
+		<Code>UKOR</Code>
+		<Runway_length>3260m</Runway_length>
+		<Status>Working</Status>
+	</Mykolaiv>
+
+	<Bagerovo>
+		<Name>Bagerovo aviabase</Name>
+		<Code></Code>
+		<Runway_length>3500m</Runway_length>
+		<Status>Based in Crimea</Status>
+	</Bagerovo>
+
+	<Yevpatoria>
+		<Name>Yevpatoria Airport</Name>
+		<Code>UKFE</Code>
+		<Runway_length>2011m</Runway_length>
+		<Status>Based in Crimea</Status>
+	</Yevpatoria>
+
+	<Poltava>
+		<Name>Poltava Airport</Name>
+		<Code>MIO</Code>
+		<Runway_length>2500m</Runway_length>
+		<Status>Working</Status>
+	</Poltava>
+</Ukraine>

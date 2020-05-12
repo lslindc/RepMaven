@@ -1,0 +1,25 @@
+<Planes>
+	<Passenger>
+		<Plane>
+			<Name>Airbus</Name>
+			<Model>A380</Model>
+			<Affiliation>Multi-national</Affiliation>
+			<Seats>From 575 to 853</Seats>
+			<Speed>903km/h</Speed>
+		</Plane>
+		<Plane>
+			<Name>Sukhoi</Name>
+			<Model>Super Jet</Model>
+			<Affiliation>Russian Airlines</Affiliation>
+			<Seats>108</Seats>
+			<Speed>830 km/h</Speed>
+		</Plane>
+		<Plane>
+			<Name>Airbus</Name>
+			<Model>A220</Model>
+			<Affiliation>Multi-national</Affiliation>
+			<Seats>From 100 to 160</Seats>
+			<Speed>870 km/h</Speed>
+		</Plane>
+	</Passenger>
+</Planes>

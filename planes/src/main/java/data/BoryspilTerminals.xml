@@ -1,0 +1,42 @@
+<Aeroport>
+	<Terminals>
+		<A>
+			<Function>Ukrainian intercity flights</Function>
+			<Built>1960</Built>
+			<Operation>Passengers</Operation>
+			<Status>Not working now. Stoped on 15 September 2011</Status>
+		</A>
+		<B>
+			<Function>Intercity flights</Function>
+			<Built>20 May 1965</Built>
+			<Operation>Passengers</Operation>
+			<Status>Not working now. Stoped on December 2014</Status>
+		</B>
+		<C>
+			<Function>VIP passengers flights</Function>
+			<Built>1995</Built>
+			<Operation>Passengers</Operation>
+			<Status>Not working now. Stoped on 2012</Status>
+		</C>
+		<D>
+			<Function>International flights</Function>
+			<Built>28 May 2012</Built>
+			<Operation>Passengers</Operation>
+			<Status>Working now. The biggest terminal in Ukraine</Status>
+		</D>
+		<F>
+			<Function>International + intercity low-cost and charter flights
+			</Function>
+			<Built>21 September 2010</Built>
+			<Operation>Passengers</Operation>
+			<Status>Working now</Status>
+		</F>
+		<CargoTerminal>
+			<Function>Cargo transporting flights
+			</Function>
+			<Built>1960</Built>
+			<Operation>Cargo</Operation>
+			<Status>Working now</Status>
+		</CargoTerminal>
+	</Terminals>
+</Aeroport>

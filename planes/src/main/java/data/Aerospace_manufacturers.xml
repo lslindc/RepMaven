@@ -1,0 +1,39 @@
+<Manufacturer>
+	<USA>
+		<Boeing>
+			<Headquarter>Chicago, Illinois</Headquarter>
+			<CEO>Dave Calhoun</CEO>
+			<Revenue>$ 101.0 billions</Revenue>
+		</Boeing>
+		<LockheedMartin>
+			<Headquarter>Bethesda, Maryland</Headquarter>
+			<CEO>Marillyn Hewson</CEO>
+			<Revenue>$ 53.8 billions</Revenue>
+		</LockheedMartin>
+		<UnitedTechnologies>
+			<Headquarter>Farmington, Connecticut</Headquarter>
+			<CEO>Gregory J. Hayes</CEO>
+			<Revenue>$ 36.0 billions</Revenue>
+		</UnitedTechnologies>
+	</USA>
+
+	<EU>
+		<Airbus>
+			<Headquarter-1>Blagnac, Greater Toulouse. France</Headquarter-1>
+			<Headquarter-2>Leiden, Netherlands</Headquarter-2>
+			<Headquarter-3>Barcelona, Spain</Headquarter-3>
+			<CEO>Guillaume Faury</CEO>
+			<Revenue>$ 75.1 billions</Revenue>
+		</Airbus>
+		<Safran>
+			<Headquarter>Paris, France</Headquarter>
+			<CEO>Philippe Petitcolin</CEO>
+			<Revenue>$ 25.2 billions</Revenue>
+		</Safran>
+		<Rolls-Royce_Holdings>
+			<Headquarter>Kings Place, London</Headquarter>
+			<CEO>Warren East</CEO>
+			<Revenue>$ 15.0 billions</Revenue>
+		</Rolls-Royce_Holdings>
+	</EU>
+</Manufacturer>
