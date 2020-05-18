@@ -5,7 +5,7 @@ import menu.Menu;
 
 public abstract class Planes implements IPlanes {
 
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(Planes.class);
 	private int speed = 0;
 	private String name = "default";
 	public static String planecolor = "white";
@@ -13,6 +13,8 @@ public abstract class Planes implements IPlanes {
 
 	private static int planesCreated = 0;
 
+	public Planes() {}
+	
 	public Planes(int speed, String name) {
 		planesCreated++;
 		this.speed = speed;

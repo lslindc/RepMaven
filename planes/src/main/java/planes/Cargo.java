@@ -2,13 +2,13 @@ package planes;
 
 import org.apache.log4j.Logger;
 
-import menu.Menu;
-
 public class Cargo extends Planes implements IPlanes {
 
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(Cargo.class);
 	private int capacity;
 
+	public Cargo() {}
+	
 	public Cargo(int speed, String name) {
 		super(speed, name);
 	}

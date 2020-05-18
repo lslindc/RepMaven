@@ -11,13 +11,13 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import menu.Menu;
+//import menu.Menu;
 import planes.*;
 
 
 public class Hangar {
 	
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(Hangar.class);
 
 	List<Planes> listPlanes;
 	List<Passenger> listPassenger;

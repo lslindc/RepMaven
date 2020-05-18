@@ -8,15 +8,13 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-import menu.Menu;
-
 public class IOPropWriterReader {
 
 	static final String SEPARATOR = File.separator;
 	static final String PATH_TO_PROPERTIES = "C:" + SEPARATOR + "Users" + SEPARATOR + "Serg" + SEPARATOR + "Desktop"
 			+ SEPARATOR + "my";
 	
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(IOPropWriterReader.class);
 	
 	public static String getValueFromProperties(String key) {
 

@@ -5,16 +5,12 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
-import menu.Menu;
-
-import java.util.Properties;
-
 public class IOWriterReader {
 
 	private String separator = File.separator;
 	private String path = "C:" + separator + "Users" + separator + "Serg" + separator + "Desktop" + separator + "text1";
 
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(IOWriterReader.class);
 	
 	public void writeToFile(String value) {
 

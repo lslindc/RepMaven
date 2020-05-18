@@ -1,11 +1,10 @@
 package planes;
 
 import org.apache.log4j.Logger;
-import menu.Menu;
 
 public class Military extends Planes {
 
-	private static final Logger LOGGER = Logger.getLogger(Menu.class);
+	private static final Logger LOGGER = Logger.getLogger(Military.class);
 	int seats;
 
 	public Military(int speed, String name) {

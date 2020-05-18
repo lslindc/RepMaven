@@ -51,7 +51,7 @@ public class Menu {
 						printInfo();
 						break;
 					case 5:
-						IOWriterReader();
+						workWithIO();
 						break;
 					case 6:
 						exit = true;
@@ -195,16 +195,21 @@ public class Menu {
 		Hangar.printInfo(hangar.getListPlanes());
 	}
 
-	private void IOWriterReader() {
+	private void workWithIO() {
 		boolean exit = false;
 		do {
 			try {
 				Scanner in = new Scanner(System.in);
 
 				System.out.println("What do you want to do? ");
+				System.out
+						.println("|1 - Write to file| |2 - Read from file| |3 - Write property| |4 - Read Property| ");
 				System.out.println(
-						"|1 - Write to file| |2 - Read from file| |3 - Write property| |4 - Read Property| |5 - Exit|");
+						"|5 - Convert to String| |6 - Save json to file| |7 - Convert from String| |8 - Read json from file| |9 - Exit|");
 				int IOOperation = in.nextInt();
+
+				Planes plane;
+				String planeString;
 
 				switch (IOOperation) {
 
@@ -227,6 +232,27 @@ public class Menu {
 					LOGGER.debug("Path to properties: " + path);
 					break;
 				case 5:
+					plane = new Cargo(10, "test1");
+					planeString = WorkWithJson.convertJavaToJsonStr(plane);
+					LOGGER.info("Converted json plane:");
+					LOGGER.info(planeString);
+					break;
+				case 6:
+					plane = new Cargo(10, "test2");
+					WorkWithJson.convertJavaToJsonFile(plane, "C:\\Users\\Serg\\Desktop\\plane.txt");
+					LOGGER.info("Saved converted plane in file");
+					break;
+				case 7:
+					String planeJson = "{\"name\":\"test3\",\"capacity\":15}";
+					plane = WorkWithJson.convertJsonStrToPlanePOJO(planeJson);
+					LOGGER.info("Converted POJO plane:");
+					LOGGER.info(plane);
+				case 8:
+					plane = WorkWithJson.convertJsonFileToPlanePOJO("C:\\Users\\Serg\\Desktop\\plane.txt");
+					LOGGER.info("Converted POJO plane from file:");
+					LOGGER.info(plane);
+					break;
+				case 9:
 					exit = true;
 					LOGGER.info("You are on the main menu now!");
 					break;
