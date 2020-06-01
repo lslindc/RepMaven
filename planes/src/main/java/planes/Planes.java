@@ -6,15 +6,16 @@ import menu.Menu;
 public abstract class Planes implements IPlanes {
 
 	private static final Logger LOGGER = Logger.getLogger(Planes.class);
-	private int speed = 0;
+	private int speed;
 	private String name = "default";
 	public static String planecolor = "white";
 	boolean isReadyForFlight;
 
 	private static int planesCreated = 0;
 
-	public Planes() {}
-	
+	public Planes() {
+	}
+
 	public Planes(int speed, String name) {
 		planesCreated++;
 		this.speed = speed;
@@ -41,6 +42,10 @@ public abstract class Planes implements IPlanes {
 		return this.name;
 	}
 
+	public int getSpeed() {
+		return this.speed;
+	}
+
 	public static int getPlanesCreated() {
 		return planesCreated;
 	}
@@ -48,6 +53,11 @@ public abstract class Planes implements IPlanes {
 	@Override
 	public String toString() {
 		return this.name;
+	}
+
+	@Override
+	public int toString1() {
+		return this.speed;
 	}
 
 }
