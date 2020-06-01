@@ -11,6 +11,7 @@ import planes.*;
 import exceptions.EmptyHangarException;
 import exceptions.PlaneDataException;
 import utils.*;
+import db.*;
 
 public class Menu {
 
@@ -30,7 +31,8 @@ public class Menu {
 				System.out.println("3 - Show info of planes");
 				System.out.println("4 - Print info about Planes");
 				System.out.println("5 - IO Writer/Reader");
-				System.out.println("6 - Exit");
+				System.out.println("6 - Work with DB");
+				System.out.println("7 - Exit");
 
 				Scanner in = new Scanner(System.in);
 				if (in.hasNextInt()) {
@@ -54,6 +56,9 @@ public class Menu {
 						workWithIO();
 						break;
 					case 6:
+						workWithDB();
+						break;
+					case 7:
 						exit = true;
 						LOGGER.info("Bye!");
 						break;
@@ -80,7 +85,7 @@ public class Menu {
 
 			}
 		} while (!exit);
-//		 in.close(); // ask
+
 	}
 
 	private void addPlane() throws PlaneDataException {
@@ -103,11 +108,8 @@ public class Menu {
 
 				LOGGER.info("Type maximum speed of a plane: ");
 				speed = in.nextInt();
-				LOGGER.info("Type capacity volume: ");
-				int capacity = in.nextInt();
 
 				Cargo cargoPlane = new Cargo(speed, name);
-				cargoPlane.setCapacity(capacity);
 				hangar.addPlane(cargoPlane);
 				hangar.addCargo(cargoPlane);
 				cargoPlane.prepareForFlight(name);
@@ -260,10 +262,48 @@ public class Menu {
 					LOGGER.debug("Wrong value. Please choose from 1 to 5");
 					break;
 				}
-//				in.close();
+
 			} catch (Exception e) {
 				LOGGER.error(e.getMessage());
 			}
 		} while (!exit);
 	}
+
+	private void workWithDB() {
+		boolean exit = false;
+		do {
+			try {
+				Scanner in = new Scanner(System.in);
+
+				System.out.println("What do you want to do? ");
+				System.out.println("|1 - Get info from DB| |2 - Write info to DB| |3 - Exit|");
+				int DBOperation = in.nextInt();
+
+				switch (DBOperation) {
+
+				case 1:
+					Query query = new Query();
+					query.infoPlanes();
+					break;
+				case 2:
+					List<Planes> planes = hangar.getListPlanes();
+					Planes plane = planes.get(0);
+
+					Query query1 = new Query();
+					query1.addToDB(plane.getName(), plane.getSpeed());
+					break;
+				case 3:
+					exit = true;
+					LOGGER.info("You are on the main menu now!");
+					break;
+				default:
+					LOGGER.info("Wrong value. Please choose 1 or 2");
+					break;
+				}
+			} catch (Exception e) {
+				LOGGER.error(e.getMessage());
+			}
+		} while (!exit);
+	}
+
 }
