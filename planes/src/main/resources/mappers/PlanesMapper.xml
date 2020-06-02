@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IPlanesDAO">
+    <resultMap id="planes" type="model.Planes"/>
+    <select id="getPlaneById" parameterType="java.lang.Long" resultMap="planes">
+        select * from Planes where id = #{id}
+    </select>
+    <select id="getPlanes" resultMap="planes">
+        select * from Planes
+    </select>
+    <insert id="insertPlane" parameterType="model.Planes">
+        insert into Planes(id, name, model, type, crew, speed)
+        values (#{id}, #{name}, #{model}, #{type}, #{crew}, #{speed})
+    </insert>
+    <update id="updatePlane" parameterType="model.Planes">
+        update Planes
+        set name = #{name}, model = #{model}, type = #{type}, crew = #{crew}, speed = #{speed}
+        where id = #{id}
+    </update>
+    <delete id="deletePlane" parameterType="model.Planes">
+        delete from Planes
+        where id = #{id}
+    </delete>
+</mapper>

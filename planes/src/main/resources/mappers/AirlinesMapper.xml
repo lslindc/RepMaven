@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IAirlinesDAO">
+    <resultMap id="airlines" type="model.Airlines"/>
+    <select id="getAirlinesById" parameterType="java.lang.Long">
+        select * from Airlines where id = #{id}
+    </select>
+    <select id="getAirlines" resultMap="airlines">
+        select * from Airlines
+    </select>
+    <insert id="insertAirlines" parameterType="model.Airlines">
+        insert into Airlines(id, name, country, employees)
+        values (#{id}, #{name}, #{country}, #{employees})
+    </insert>
+    <update id="updateAirlines" parameterType="model.Airlines">
+        update Airlines
+        set name = #{name}, country = #{country}, employees = #{employees}
+        where id = #{id}
+    </update>
+    <delete id="deleteAirlines" parameterType="model.Airlines">
+        delete from Airlines
+        where id = #{id}
+    </delete>
+</mapper>

@@ -1,0 +1,44 @@
+2020-06-02 09:15:44 INFO  DatabaseMenu:25 - Name: AN-124 Model: Ruslan Type: Cargo Crew :3 Speed: 800
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: AN-225 Model: Mriya Type: Cargo Crew :4 Speed: 800
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Lockheed Model: C-130 Type: Cargo Crew :5 Speed: 645
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Lockheed Model: C-5 Type: Military Crew :5 Speed: 856
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Lockheed Model: F-35 Type: Military Crew :1 Speed: 1960
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Su-57 Type: Military Crew :1 Speed: 2120
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Super Jet Type: Passenger Crew :108 Speed: 830
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Airbus Model: A220 Type: Passenger Crew :160 Speed: 870
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Airbus Model: A380 Type: Passenger Crew :853 Speed: 903
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Airbus Model: A320 Type: Passenger Crew :180 Speed: 840
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Boeing Model: 737-800 Type: Passenger Crew :189 Speed: 876
+2020-06-02 09:15:45 INFO  DatabaseMenu:25 - Name: Boeing Model: 747 LCF Type: Cargo Crew :2 Speed: 900
+2020-06-02 09:15:49 INFO  DatabaseMenu:33 - Enter id of a Plane: 
+2020-06-02 09:18:33 INFO  DatabaseMenu:33 - Enter id of a Plane: 
+2020-06-02 09:22:04 INFO  DatabaseMenu:33 - Enter id of a Plane: 
+2020-06-02 09:22:31 INFO  DatabaseMenu:36 - AN-124
+2020-06-02 09:22:32 INFO  DatabaseMenu:41 - Choose one of the id: 
+2020-06-02 09:29:13 INFO  DatabaseMenu:41 - Choose one of the id: 
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: AN-225 Model: Mriya Type: Cargo Crew :4 Speed: 800 Id: 2
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Lockheed Model: C-130 Type: Cargo Crew :5 Speed: 645 Id: 3
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Lockheed Model: C-5 Type: Military Crew :5 Speed: 856 Id: 4
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Lockheed Model: F-35 Type: Military Crew :1 Speed: 1960 Id: 5
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Su-57 Type: Military Crew :1 Speed: 2120 Id: 6
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Super Jet Type: Passenger Crew :108 Speed: 830 Id: 7
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Airbus Model: A220 Type: Passenger Crew :160 Speed: 870 Id: 8
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Airbus Model: A380 Type: Passenger Crew :853 Speed: 903 Id: 9
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Airbus Model: A320 Type: Passenger Crew :180 Speed: 840 Id: 10
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Boeing Model: 737-800 Type: Passenger Crew :189 Speed: 876 Id: 11
+2020-06-02 09:31:12 INFO  DatabaseMenu:25 - Name: Boeing Model: 747 LCF Type: Cargo Crew :2 Speed: 900 Id: 12
+2020-06-02 09:31:12 INFO  DatabaseMenu:33 - Enter id of a Plane: 
+2020-06-02 09:31:22 INFO  DatabaseMenu:36 - Lockheed
+2020-06-02 09:31:22 INFO  DatabaseMenu:41 - Choose id of a Plane to delete: 
+2020-06-02 09:31:27 INFO  DatabaseMenu:45 - Deleted successfully!
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: AN-225 Model: Mriya Type: Cargo Crew :4 Speed: 800 Id: 2
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Lockheed Model: C-5 Type: Military Crew :5 Speed: 856 Id: 4
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Lockheed Model: F-35 Type: Military Crew :1 Speed: 1960 Id: 5
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Su-57 Type: Military Crew :1 Speed: 2120 Id: 6
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Sukhoi Model: Super Jet Type: Passenger Crew :108 Speed: 830 Id: 7
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Airbus Model: A220 Type: Passenger Crew :160 Speed: 870 Id: 8
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Airbus Model: A380 Type: Passenger Crew :853 Speed: 903 Id: 9
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Airbus Model: A320 Type: Passenger Crew :180 Speed: 840 Id: 10
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Boeing Model: 737-800 Type: Passenger Crew :189 Speed: 876 Id: 11
+2020-06-02 09:31:36 INFO  DatabaseMenu:25 - Name: Boeing Model: 747 LCF Type: Cargo Crew :2 Speed: 900 Id: 12
+2020-06-02 09:31:36 INFO  DatabaseMenu:33 - Enter id of a Plane: 

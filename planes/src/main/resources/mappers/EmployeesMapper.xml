@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IEmployeesDAO">
+    <resultMap id="employees" type="model.Employees"/>
+    <select id="getEmployeesById" parameterType="java.lang.Long">
+        select * from Employees where id = #{id}
+    </select>
+    <select id="getEmployees" resultMap="employees">
+        select * from Employees
+    </select>
+    <insert id="insertEmployees" parameterType="model.Employees">
+        insert into Employees(id, name, age, flightexperience)
+        values (#{id}, #{name}, #{age}, #{flightexperience})
+    </insert>
+    <update id="updateEmployees" parameterType="model.Employees">
+        update Employees
+        set name = #{name}, age = #{age}, flightexperience = #{flightexperience}
+        where id = #{id}
+    </update>
+    <delete id="deleteEmployees" parameterType="model.Employees">
+        delete from Employees
+        where id = #{id}
+    </delete>
+</mapper>

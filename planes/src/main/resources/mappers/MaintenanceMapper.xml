@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IMaintenanceDAO">
+    <resultMap id="maintenance" type="model.Maintenance"/>
+    <select id="getMaintenanceById" parameterType="java.lang.Long">
+        select * from Maintenance where id = #{id}
+    </select>
+    <select id="getMaintenance" resultMap="maintenance">
+        select * from Maintenance
+    </select>
+    <insert id="insertMaintenance" parameterType="model.Maintenance">
+        insert into Maintenance(id, company, specialization)
+        values (#{id}, #{company}, #{specialization})
+    </insert>
+    <update id="updateMaintenance" parameterType="model.Maintenance">
+        update Maintenance
+        set company = #{company}, specialization = #{specialization}
+        where id = #{id}
+    </update>
+    <delete id="deleteMaintenance" parameterType="model.Maintenance">
+        delete from Maintenance
+        where id = #{id}
+    </delete>
+</mapper>

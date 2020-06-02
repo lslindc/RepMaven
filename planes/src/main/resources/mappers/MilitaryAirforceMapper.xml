@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IMilitaryAirforceDAO">
+    <resultMap id="militaryairforce" type="model.MilitaryAirforce"/>
+    <select id="getMilitaryAirforceById" parameterType="java.lang.Long">
+        select * from MilitaryAirforce where id = #{id}
+    </select>
+    <select id="getMilitaryAirforce" resultMap="militaryairforce">
+        select * from MilitaryAirforce
+    </select>
+    <insert id="insertMilitaryAirforce" parameterType="model.MilitaryAirforce">
+        insert into MilitaryAirforce(id, name, country, amount)
+        values (#{id}, #{name}, #{country}, #{amount})
+    </insert>
+    <update id="updateMilitaryAirforce" parameterType="model.MilitaryAirforce">
+        update MilitaryAirforce
+        set name = #{name}, country = #{country}, amount = #{amount}
+        where id = #{id}
+    </update>
+    <delete id="deleteMilitaryAirforce" parameterType="model.MilitaryAirforce">
+        delete from MilitaryAirforce
+        where id = #{id}
+    </delete>
+</mapper>
